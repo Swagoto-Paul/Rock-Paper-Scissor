@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    height: 10vh;
+    background-color: black;
+    color: gold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.body{
+    height: 85vh;
+    /* width: 120vw; */
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+
+.choices{
+    height: 50vmin;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    gap: 5rem;
+}
+.choice{
+    height:150px;
+    width: 150px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+img:hover{
+    border: 7px solid black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.score-board{
+    height: 10vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    font-size: xx-large;
+}
+
+#bot, #you{
+    padding-left: 1.5rem;
+}
+
+.msg{
+    height:10vmin;
+    margin-top: 4vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.msg p{
+    padding: .5rem;
+    border-radius: 2rem;
+    border: 2px solid black;
+    background-color: gold;
+}
+
+.reset{
+    height:10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.btn{
+    border: none;
+    background: none;
+}
+
+.footer{
+    height: 5vh;
+    background-color: black;
+}
+
+.links
+{
+    width: 11vmin;
+    padding-top: 2vmin;
+    padding-left: 0.7vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+}
